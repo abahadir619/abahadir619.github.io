@@ -845,6 +845,9 @@ section #title .credits.right {
 
   section {
     margin-top: 40px;
+    color:white;
+    text-align:center
+    background-color:black;
   }
 
   nav {
