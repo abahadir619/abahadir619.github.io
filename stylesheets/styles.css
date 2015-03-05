@@ -354,6 +354,8 @@ img {
   /* 1 */
   -ms-interpolation-mode: bicubic;
   /* 2 */
+  height: auto;
+  width: auto\9;
 }
 
 /*
