@@ -723,7 +723,7 @@ u1{
 }
 #header nav {
   max-width: 650px;
-  margin: 0 auto;
+  margin: 0 50px;
   padding: 0 50px;
   background: none;
   margin: 6px auto;
