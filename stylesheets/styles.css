@@ -178,7 +178,7 @@ a:active {
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
 h1 {
-  color: blue;
+  color: #3399cc;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -552,7 +552,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: blue;
+  color: #3399cc;
   margin: 0 0 10px;
   font-family: Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
