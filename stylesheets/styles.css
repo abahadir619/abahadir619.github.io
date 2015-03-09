@@ -723,10 +723,9 @@ u1{
 }
 #header nav {
   max-width: 650px;
-  margin: 50px;
-  padding: 50px;
+  margin: 50 20px;
+  padding: 50 20px;
   background: none;
-  margin: 6px auto;
 }
 #header nav li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
