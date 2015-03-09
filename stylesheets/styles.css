@@ -700,6 +700,12 @@ dt {
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
+u1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
 #header {
   z-index: 100;
@@ -718,8 +724,8 @@ dt {
 #header nav {
   max-width: 650px;
   margin: 0 auto;
-  padding: 0 10px;
-  background: blue;
+  padding: 0 50px;
+  background: none;
   margin: 6px auto;
 }
 #header nav li {
