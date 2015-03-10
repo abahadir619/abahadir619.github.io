@@ -612,7 +612,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -888,8 +888,8 @@ section #title .credits.right {
 
 /*  pdf script css styling*/
 #pdf {
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 1000px;
   margin: 2em auto;
   border: 10px solid #6699FF;
 }
