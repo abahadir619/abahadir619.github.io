@@ -895,3 +895,13 @@ section #title .credits.right {
    display: block;
    border: solid 1px #666;
 }
+
+#editor {
+  position:  absolute;
+  width: 750px;
+  height: 700px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2em auto;
+  border: 10px solid #6699FF;
+}
