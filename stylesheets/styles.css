@@ -874,7 +874,7 @@ section #title .credits.right {
     display: block;
   }
 }
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 300px) {
   #header {
     margin-top: -20px;
   }
@@ -896,6 +896,8 @@ section #title .credits.right {
 #pdf1, #pdf2 {
   width: 800px;
   height: 550px;
+  max-width: 100%;
+  max-height: 100%;
   margin: 2em auto;
   border: 10px solid #6699FF;
 }
@@ -903,6 +905,8 @@ section #title .credits.right {
 #pdf3{
   width: 800px;
   height: 700px;
+  max-width: 100%;
+  max-height: 100%;
   margin: 2em auto;
   border: 10px solid #6699FF;
 }
