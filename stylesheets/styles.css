@@ -792,6 +792,25 @@ u1{
   font-size: 11px;
 }
 
+#header nav li.about {
+  float:;
+  margin-left: 0px
+}
+
+#header nav li.projects{
+  float:;
+  margin-left: 12px;
+}
+
+#header nav li.resume{
+  float:;
+  margin-left: 20px;
+}
+
+#header nav li.lessons{
+  float:;
+  margin-left: 30px;
+}
 section {
   max-width: 650px;
   padding: 30px 0px 50px 0px;
