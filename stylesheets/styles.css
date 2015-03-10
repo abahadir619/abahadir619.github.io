@@ -794,7 +794,8 @@ u1{
 }
 
 section {
-  max-width: 500px;
+  width: 800px;
+  max-width: 100%;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
@@ -901,6 +902,13 @@ section #title .credits.right {
   left: 20px;
   width: 750px;
   height: 500px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#contacts{
+  width:800px;
+  height: 800px;
   max-width: 100%;
   max-height: 100%;
 }
