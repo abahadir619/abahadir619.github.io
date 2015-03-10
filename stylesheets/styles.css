@@ -898,7 +898,7 @@ section #title .credits.right {
 #editor {
   position: absolute;
   margin:0;
-  left: 50px;
+  left: 20px;
   width: 500px;
   height: 500px;
   max-width: 100%;
