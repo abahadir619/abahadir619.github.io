@@ -541,13 +541,8 @@ body {
   color: #f0e7d5;
   font-weight: normal;
   background: #252525;
-  background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 50%, 50% 50%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
-  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
-  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
-  background: -o-linear-gradient(#2a2a29, #1c1c1c);
-  background: -ms-linear-gradient(#2a2a29, #1c1c1c);
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  background-attachment: fixheadered !important;
+
   text-align: center;
 }
 
@@ -732,21 +727,21 @@ u1{
   font-weight: normal;
   list-style: none;
   display: inline;
-  color: white;
+  color: black;
   line-height: 50px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 14px;
   text-align:center;
 }
 #header nav li a {
-  color: white;
-  border: 1px solid #5d910b;
+  color: black;
+  border: 1px solid #00FFFF;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
   background: -webkit-linear-gradient(#93bd20, #659e10);
   background: -moz-linear-gradient(#93bd20, #659e10);
   background: -o-linear-gradient(#93bd20, #659e10);
   background: -ms-linear-gradient(#93bd20, #659e10);
-  background: linear-gradient(#93bd20, #659e10);
+  background: linear-gradient(#00FFFF, #00CED1);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -757,7 +752,7 @@ u1{
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  background-color: #93bd20;
+  background-color: #00FFFF;
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 14px;
@@ -771,9 +766,9 @@ u1{
   background: -moz-linear-gradient(#749619, #527f0e);
   background: -o-linear-gradient(#749619, #527f0e);
   background: -ms-linear-gradient(#749619, #527f0e);
-  background: linear-gradient(#749619, #527f0e);
-  background-color: #659e10;
-  border: 1px solid #527f0e;
+  background: linear-gradient( #00CED1, #00BFFF);
+  background-color: #00CED1;
+  border: 1px solid #00CED1;
   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
@@ -889,7 +884,7 @@ section #title .credits.right {
 /*  pdf script css styling*/
 #pdf1, #pdf2 {
   width: 800px;
-  height: 800px;
+  height: 550px;
   margin: 2em auto;
   border: 10px solid #6699FF;
 }
