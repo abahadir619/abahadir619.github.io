@@ -887,18 +887,18 @@ section #title .credits.right {
 
 
 /*  pdf script css styling*/
-#pdf {
+#pdf1, #pdf2 {
   width: 800px;
-  height: 1000px;
+  height: 800px;
   margin: 2em auto;
   border: 10px solid #6699FF;
 }
 
-#pdf p {
+#pdf1 p, #pdf2 p {
    padding: 1em;
 }
 
-#pdf object {
+#pdf1 object, #pdf2 object {
    display: block;
    border: solid 1px #666;
 }
