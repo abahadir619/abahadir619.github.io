@@ -524,7 +524,7 @@ textarea {
 }
 
 /* =============================================================================
-   Tables
+   Tze ables
    ========================================================================== */
 /*
  * Remove most spacing between table cells
@@ -540,9 +540,11 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #252525;
-  background-attachment: fixheadered !important;
-
+  background-image: url("../background.jpg");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   text-align: center;
 }
 
@@ -607,6 +609,13 @@ strong {
 }
 
 .wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+.wrapper2 {
   max-width: 800px;
   margin: 0 auto;
   position: relative;
@@ -717,9 +726,9 @@ u1{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 #header nav {
-  max-width: 650px;
-  margin: 50 20px;
-  padding: 50 20px;
+  max-width: 800px;
+  margin: 70 50px;
+  padding: 70 50px;
   background: none;
 }
 #header nav li {
@@ -730,7 +739,7 @@ u1{
   color: black;
   line-height: 50px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-  font-size: 14px;
+  font-size: 15px;
   text-align:center;
 }
 #header nav li a {
@@ -753,10 +762,10 @@ u1{
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   background-color: #00FFFF;
-  padding: 10px 12px;
+  padding: 20px 40px;
   margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
+  line-height: 15px;
+  font-size: 15px;
   display: inline-block;
   text-align: center;
 }
@@ -808,7 +817,7 @@ u1{
   margin-left: 30px;
 }
 section {
-  max-width: 650px;
+  max-width: 500px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
@@ -889,11 +898,18 @@ section #title .credits.right {
   border: 10px solid #6699FF;
 }
 
-#pdf1 p, #pdf2 p {
+#pdf3{
+  width: 800px;
+  height: 700px;
+  margin: 2em auto;
+  border: 10px solid #6699FF;
+}
+
+#pdf1 p, #pdf2 p, #pdf3 p {
    padding: 1em;
 }
 
-#pdf1 object, #pdf2 object {
+#pdf1 object, #pdf2 object, #pdf3 object {
    display: block;
    border: solid 1px #666;
 }
