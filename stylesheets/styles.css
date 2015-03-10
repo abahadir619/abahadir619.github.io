@@ -901,4 +901,6 @@ section #title .credits.right {
   left: 200px;
   width: 500px;
   height: 500px;
+  max-width: 100%;
+  max-height: 100%;
 }
