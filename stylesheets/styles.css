@@ -793,31 +793,7 @@ u1{
   float: right;
   margin-left: 6px;
 }
-#header nav li.title {
-  float: right;
-  margin-right: 10px;
-  font-size: 11px;
-}
 
-#header nav li.about {
-  float:;
-  margin-left: 0px
-}
-
-#header nav li.projects{
-  float:;
-  margin-left: 12px;
-}
-
-#header nav li.resume{
-  float:;
-  margin-left: 20px;
-}
-
-#header nav li.lessons{
-  float:;
-  margin-left: 30px;
-}
 section {
   max-width: 500px;
   padding: 30px 0px 50px 0px;
@@ -876,7 +852,7 @@ section #title .credits.right {
 }
 @media print, screen and (max-width: 300px) {
   #header {
-    margin-top: -20px;
+
   }
 
   section {
@@ -894,7 +870,7 @@ section #title .credits.right {
 
 /*  pdf script css styling*/
 #pdf1, #pdf2 {
-  width: 800px;
+  width: 750px;
   height: 550px;
   max-width: 100%;
   max-height: 100%;
@@ -903,7 +879,7 @@ section #title .credits.right {
 }
 
 #pdf3{
-  width: 800px;
+  width: 750px;
   height: 700px;
   max-width: 100%;
   max-height: 100%;
