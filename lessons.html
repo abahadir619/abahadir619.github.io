@@ -8,12 +8,8 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
+    <script src="scripts/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/ace/theme/twilight.js" type="text/javascript" charset="utf-8"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/1_Desktop_Icons/icon_128.png">
@@ -21,7 +17,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
 
   </head>
   <body>
@@ -40,12 +35,12 @@
     </center>
     </div><!-- end header -->
     <br><br>
+        <script type="text/javascript">
+            var editor = ace.edit("editor");
+            editor.setTheme("scripts/ace/theme/twilight");
+        </script>
         <div id = "editor"> This is where the tutorial will be </div>
-      <script type="text/javascript" src="./scripts/ace/lib/ace.js" charset="utf-8"></script>
-      <script>
-          var editor = ace.edit("editor");
-       </script>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
+
   </body>
 </html>
