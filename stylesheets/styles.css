@@ -747,6 +747,7 @@ u1{
 }
 #header nav li a {
   color: black;
+  font-weight: bold;
   border: 1px solid #00FFFF;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
   background: -webkit-linear-gradient(#93bd20, #659e10);
@@ -768,7 +769,7 @@ u1{
   padding: 20px 30px;
   margin-top: 6px;
   line-height: 15px;
-  font-size: 15px;
+  font-size: 17px;
   display: inline-block;
   text-align: center;
 }
