@@ -853,8 +853,7 @@ section #title .credits.right {
     z-index: 100;
     left: 0;
     top: 0px;
-    height: auto;
-    width: auto;
+    margin:auto;
     text-align: center;
     background: url(../images/nav-bg.gif) #353535;
     border-bottom: 4px solid #434343;
@@ -866,9 +865,10 @@ section #title .credits.right {
   #header nav {
     max-width: auto;
     max-height: auto;
-    margin: 20 20px;
-    padding: 20 20px;
+    margin: auto;
+    padding: 0px;
     background: none;
+    position: center;
   }
   #header nav li {
     font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
