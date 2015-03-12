@@ -539,7 +539,7 @@ body {
   padding: 0px 0 20px 0px;
   margin: auto;
   font: 17px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f0e7d5;
+  color: #5FB404;
   font-weight: normal;
   background-image: url("../background.jpg");
   background-repeat:repeat;
@@ -838,20 +838,16 @@ section #title .credits.right {
   float: right;
 }
 
-@media print, screen and (max-width: 720px) {
-  #title .credits {
-    display: block;
-    width: 100%;
-    line-height: 30px;
-    text-align: center
-      }
-  #title .credits .left {
-    float: none;
-    display: block;
-  }
-  #title .credits .right {
-    float: none;
-    display: block;
+@media print, screen and (max-width: 900px) {
+  #index{
+    width:500px;
+    height:500px;
+    margin:auto;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
   }
 }
 @media print, screen and (max-width: 400px) {
@@ -932,7 +928,7 @@ section #title .credits.right {
 
   section {
     margin-top: 40px;
-    color:white;
+    color:green;
     text-align:center
     background-color:black;
   }
@@ -974,8 +970,8 @@ section #title .credits.right {
   margin:0;
   width: 700px;
   height: 400px;
-  max-width: auto;
-  max-height: auto;
+  max-width: 100%;
+  max-height: 100%;
   font-size: 14px;
 }
 
@@ -994,8 +990,8 @@ section #title .credits.right {
   width:900px;
   height:750px;
   margin:auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: auto;
+  max-height: auto;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
