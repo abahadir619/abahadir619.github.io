@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/1_Desktop_Icons/icon_128.png">
@@ -16,6 +15,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="./scripts/pdfobject.js"></script>
+
+    <script type="text/javascript">
+    window.onload = function (){
+      var pdf1 = new PDFObject({ url: "./2013_presentation.pdf" }).embed("pdf1");
+      var pdf2 = new PDFObject({ url: "./presentation_2014.pdf" }).embed("pdf2");
+    };
+    </script>
 
   </head>
   <body>
@@ -29,23 +36,21 @@
           <li><a href="./resume.html">Resume</a></li>
           <li><a href="./lessons.html">Lessons</a></li>
           <li><a href="./contact.html">Contact Me</a></li>
-      </ul>
+      </ul> 
       </nav>
-      <h1><b> Lessons </b></h1>
+      <h1> <b>Projects </b></h1>
     </center>
     </div><!-- end header -->
     <br><br>
-      <div id="wrapper2">
-        <div id="index">
-          <script src="scripts/ace-builds-master/src/ace.js" type="text/javascript" charset="utf-8">
-          </script>
-          <div id = "editor"> Type text here. </div>
-           <script type="text/javascript">
-              var editor = ace.edit("editor");
-              editor.setTheme("ace/theme/twilight");
-              editor.getSession().setMode("ace/mode/javascript")
-          </script>
+
+    <div class="wrapper2">
+          <h1><b> 2013 Research Project</b> </h1>
+          <a href="2013_presentation.pdf">Click here to download the PDF below.</a><br>
+          <div id="pdf1">It appears you don't have Adobe Reader or PDF support in this web browser.</div>
+          <h1><b> 2014 Research Project</b> </h1>
+         <a href="./presentation_2014.pdf">Click here  to download the PDF below.</a>
+          <div id="pdf2">It appears you don't have Adobe Reader or PDF support in this web browser.</div>
         </div>
-      </div>
+    </div>
   </body>
 </html>

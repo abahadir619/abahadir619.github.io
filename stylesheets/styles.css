@@ -542,6 +542,7 @@ body {
   color: #f0e7d5;
   font-weight: normal;
   background-image: url("../background.jpg");
+  background-repeat:repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -649,7 +650,7 @@ code {
 }
 
 pre {
-  padding: 8px 15px;
+  padding: 2px 10px;
   background: #191919;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -735,11 +736,11 @@ u1{
 }
 #header nav li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   list-style: none;
   display: inline;
   color: black;
-  line-height: 50px;
+  line-height: 30px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 15px;
   text-align:center;
@@ -764,7 +765,7 @@ u1{
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   background-color: #00FFFF;
-  padding: 20px 40px;
+  padding: 20px 30px;
   margin-top: 6px;
   line-height: 15px;
   font-size: 15px;
@@ -898,21 +899,43 @@ section #title .credits.right {
 }
 
 #editor {
+  text-align: left;
   position: absolute;
   margin:0;
-  left: 20px;
+  left: 100px;
   width: 750px;
   height: 500px;
   max-width: 100%;
   max-height: 100%;
+  font-size: 14px;
 }
 
 #contacts{
-  width:800px;
+  width:780px;
   height: 800px;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+  left: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#index{
+  width:750px;
+  height:800px;
   max-width: 100%;
   max-height: 100%;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+#image{
+  width:750px;
+  height: 300;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+  font-weight: bold;
 }
