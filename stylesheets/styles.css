@@ -740,7 +740,7 @@ u1{
   background: none;
 }
 #header nav li {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   list-style: none;
   display: inline;
@@ -885,7 +885,7 @@ section #title .credits.right {
     position: center;
   }
   #header nav li {
-    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     list-style: none;
     display: inline;
