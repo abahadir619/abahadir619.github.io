@@ -587,13 +587,12 @@ h3 {
 
 a {
   font-size: 20px;
-  font-style: bold;
-  color: #4973c0;
-  font-weight: 400;
+  color:#4973c0;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover {
-  font-style: bold;
+  font-weight: bold;
   color: #4973c0;
 }
 
@@ -1002,7 +1001,7 @@ section #title .credits.right {
 }
 
 #index{
-  color:#013ADF;
+  color:#969486;
   width:70%;
   height:70%;
   margin:auto;
@@ -1023,7 +1022,7 @@ section #title .credits.right {
 }
 
 #landing-photo{
-  color:#013ADF;
+  color:#969486;
   left: auto;
   width:1000px;
   height:750px;
