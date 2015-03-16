@@ -618,7 +618,7 @@ strong {
 }
 
 .wrapper2 {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   position: center;
   padding: 0 20px;
@@ -840,6 +840,7 @@ section #title .credits.right {
 
 @media print, screen and (max-width: 1200px) {
   #index{
+
     max-width:70%;
     max-height: 70%;
     margin:auto;
@@ -847,6 +848,15 @@ section #title .credits.right {
     font-weight: bold;
     text-align: center;
   }
+#landing-photo{
+    top: 375px;
+    max-width:70%;
+    max-height: 70%;
+    margin:auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 }
 @media print, screen and (max-width: 400px) {
   #header {
@@ -1005,11 +1015,12 @@ section #title .credits.right {
 }
 
 #landing-photo{
-  width:800px;
-  height:600px;
+  left: auto;
+  width:1000px;
+  height:750px;
   margin:auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: auto;
+  max-height: auto;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
