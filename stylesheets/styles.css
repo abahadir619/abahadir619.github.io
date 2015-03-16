@@ -586,12 +586,15 @@ h3 {
 }
 
 a {
-  color: #ffcc00;
+  font-size: 20px;
+  font-style: bold;
+  color: #4973c0;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #ffeb9b;
+  font-style: bold;
+  color: #4973c0;
 }
 
 a small {
@@ -840,9 +843,8 @@ section #title .credits.right {
 
 @media print, screen and (max-width: 1200px) {
   #index{
-
-    max-width:70%;
-    max-height: 70%;
+    max-width:80%;
+    max-height: 80%;
     margin:auto;
     font-size: 20px;
     font-weight: bold;
@@ -861,7 +863,7 @@ section #title .credits.right {
 @media print, screen and (max-width: 400px) {
   #header {
     z-index: 100;
-    left: 0;
+    left: auto;
     top: 0px;
     margin:auto;
     text-align: center;
@@ -873,6 +875,7 @@ section #title .credits.right {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   }
   #header nav {
+    left: auto;
     max-width: auto;
     max-height: auto;
     margin: auto;
@@ -946,6 +949,7 @@ section #title .credits.right {
 
 /*  pdf script css styling*/
 #pdf1, #pdf2 {
+  font-size: 20px;
   width: 750px;
   height: 550px;
   max-width: 100%;
@@ -955,6 +959,7 @@ section #title .credits.right {
 }
 
 #pdf3{
+  font-size: 20px;
   width: 750px;
   height: 700px;
   max-width: 100%;
@@ -995,8 +1000,9 @@ section #title .credits.right {
 }
 
 #index{
-  width:900px;
-  height:750px;
+  color:#013ADF;
+  width:70%;
+  height:70%;
   margin:auto;
   max-width: auto;
   max-height: auto;
@@ -1007,7 +1013,7 @@ section #title .credits.right {
 
 #image{
   width:auto;
-  height:300px;
+  height:auto;
   max-width: 100%;
   max-height: 100%;
   font-size: 20px;
@@ -1015,6 +1021,7 @@ section #title .credits.right {
 }
 
 #landing-photo{
+  color:#013ADF;
   left: auto;
   width:1000px;
   height:750px;
