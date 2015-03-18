@@ -944,7 +944,18 @@ section #title .credits.right {
     text-align:center
     background-color:black;
   }
-
+  #landing-photo{
+      top: 375px;
+      max-width:70%;
+      max-height: 70%;
+      margin:auto;
+      font-size: 7px;
+      font-weight: bold;
+      text-align: center;
+  }
+  .wrapper2{
+    font-size: 7px;
+  }
 }
 
 
