@@ -15,6 +15,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
   </head>
   <body>
     <div id="header">
@@ -39,15 +40,45 @@
           <li><a href="lesson4.html">Lesson Four!</a></li>
           </u1>
           <hr></hr>
-          <h1> Lesson Two: ! </h1>
-          <div id = "editor"> Type text here. </div>
-            <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
+          <h1> Lesson One: Basic Syntax! </h1>
+          <div id = "explanation"> 
+            Noice! You got past the first step. :)
+            In this step we will learn a little bit about math in LolCode! In the snippet below, you'll notice that there are lots of new terms!
+
+            In LolCode, "BTW" followed by a phrase is called a comment, meaning it is not executed when the program is run. Another important thing to know is that the integer type is called NUMBR, and we can create two NUMBRs by assigning integer values to variables. In the code, there are two variables being declared and then added. Type in 2 and 4 for these variables respectively and then type the names of both variables like this: "VAR  AN VAR2" on the third to last line!
+          </div>
+          <div id = "editor"> 
+HAI 1.2
+  I HAS A VAR
+  I HAS A VAR2
+  I HAS A VAR_SUM
+
+  VAR R   BTW Type the first NUMBR here!
+  VAR2 R   BTW Type the second NUMBR here!
+
+  VAR_SUM R SUM OF  AN  BTW Type the names of the variables before and after 'AN'
+  VISIBLE "VAR_SUM is "
+  VISIBLE  VAR_SUM
+KTHXBYE</div>
+          <font color = "#6699FF"><div id = "output"></div></font> 
+          <div id = "button"> Click the Button To See the Output! <br> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> 
+          <a href="./lesson1-3.html"><button type="button"> Next Step! </button></a>
+          </div>
+          <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
           </script>
            <script type="text/javascript">
               var editor = ace.edit("editor");
               editor.setTheme("ace/theme/twilight");
               editor.getSession().setMode("ace/mode/lolcode");
+              document.getElementById("output").innerHTML = "New output " + eval(x);
           </script>
+          <script>
+              function submitCode(){
+                var editor = ace.edit("editor");
+                  editor.setValue("VAR_SUM is 6");
+                  document.getElementById("output").innerHTML = "Great Job! Click the Next Step Button to move on!";
+              }
+          </script>
+
       </div>
   </body>
-</html>

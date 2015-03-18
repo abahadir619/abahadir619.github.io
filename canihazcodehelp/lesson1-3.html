@@ -15,6 +15,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
   </head>
   <body>
     <div id="header">
@@ -39,15 +40,33 @@
           <li><a href="lesson4.html">Lesson Four!</a></li>
           </u1>
           <hr></hr>
-          <h1> Lesson Two: ! </h1>
-          <div id = "editor"> Type text here. </div>
-            <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
+          <h1> Lesson One: Basic Syntax! </h1>
+          <div id = "explanation"> 
+      
+          </div>
+          <div id = "editor"> 
+HAI 1.2
+
+KTHXBYE</div>
+          <font color = "#6699FF"><div id = "output"></div></font> 
+          <div id = "button"> Click the Button To See the Output! <br> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> 
+          <a href="./lesson1-3.html"><button type="button"> Next Step! </button></a>
+          </div>
+          <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
           </script>
            <script type="text/javascript">
               var editor = ace.edit("editor");
               editor.setTheme("ace/theme/twilight");
               editor.getSession().setMode("ace/mode/lolcode");
+              document.getElementById("output").innerHTML = "New output " + eval(x);
           </script>
+          <script>
+              function submitCode(){
+                var editor = ace.edit("editor");
+                  editor.setValue("");
+                  document.getElementById("output").innerHTML = "Great Job! Click the Next Step Button to move on!";
+              }
+          </script>
+
       </div>
   </body>
-</html>

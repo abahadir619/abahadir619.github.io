@@ -21,7 +21,7 @@
     <div id="header">
       <center>
       <nav class="header">
-        <img src = "favicon/1_Desktop_Icons/icon_128.png" align="right" width="100" height="100"></img>
+        <img src = "favicon/1_Desktop_Icons/icon_128.png" align="right" width="80" height="75"></img>
       <ul>
           <li><a href="./home.html">Home</a></li>
           <li><a href="./lessons.html">Coding Tutorialz!</a></li>
@@ -42,12 +42,20 @@
           <hr></hr>
           <h1> Lesson One: Basic Syntax! </h1>
           <div id = "explanation"> 
-            
-
+            LolCode is a fun and humorous programming language! But like all legitimate programming languages, it has its rules that one should know and understand. 
+ 
+            The following is a short code snippet that simply prints out "O Hai There!"
           </div>
-          <div id = "editor"> Type text here. </div>
-          <div id = "output"> Output here. </div>
-          <div id = "button"> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> </div>
+          <div id = "editor"> 
+HAI 1.2
+  CAN HAS STDIO?
+  VISIBLE "O Hai There!"
+KTHXBYE
+          </div>
+          <font color = "#6699FF"><div id = "output"></div></font> 
+          <div id = "button"> Click the Button To See the Output! <br> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> 
+          <a href="./lesson1-2.html"><button type="button"> Next Step! </button></a>
+          </div>
           <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
           </script>
            <script type="text/javascript">
@@ -59,10 +67,8 @@
           <script>
               function submitCode(){
                 var editor = ace.edit("editor");
-                var content = editor.getValue();
-                if(content == "Hello") {
-                  document.getElementById("output").innerHTML = "New output: " + content;
-                }
+                editor.setValue("O Hai There!");
+                document.getElementById("output").innerHTML = "What happened here? Well first the code snippet started with 'HAI 1.2' and ended with 'KTHXBYE'. In between it simply obtained access to stdio (standard input and output) and printed out the message using the VISIBLE method! Click Next To Continue! ";
               }
           </script>
 
