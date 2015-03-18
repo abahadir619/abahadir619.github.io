@@ -28,26 +28,22 @@
           <li><a href="./resources.html">Resources</a></li>
       </ul>
       </nav>
+      <h1> <b>Contact Me </b></h1>
     </center>
     </div><!-- end header -->
     <br><br>
-      <div id="landing-photo">
-          <ul>I can Haz a List of Tutorialz!?
-          <li><a href="lesson1.html">Lesson One: Basic syntax!</a></li>
-          <li><a href="lesson2.html">Lesson Two!</a></li>
-          <li><a href="lesson3.html">Lesson Three!</a></li>
-          <li><a href="lesson4.html">Lesson Four!</a></li>
-          </u1>
-          <hr></hr>
-          <h1> Lesson Three: ! </h1>
-          <div id = "editor"> Type text here. </div>
-            <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
-          </script>
-           <script type="text/javascript">
-              var editor = ace.edit("editor");
-              editor.setTheme("ace/theme/twilight");
-              editor.getSession().setMode("ace/mode/lolcode")
-          </script>
+     <center><div class="wrapper2">
+      <div id = "landing-photo">
+        <h1> Resources </h1>
+        <h2><b>More Resources to Learn About Programming!</b></h2>
+        LinkedIn Github<br>
+          <a href="https://www.linkedin.com/in/lopezanthony/en"><img src="./LinkedIn_logo_initials.png" width ="75" height= "75" alt="Linked In"></img></a>
+          <a href="https://github.com/abahadir619"><img src="./GitHub-Mark.png" width="75" height="75" alt="GitHub"></img></a><br>
+          For research projects, click here:
+          <a href="./research.html">Research Project Presentations</a><br>
+          For my resume/CV, click here:
+          <a href="./resume.html">Resume</a>
       </div>
+    </div></center>
   </body>
 </html>

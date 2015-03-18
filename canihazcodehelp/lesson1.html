@@ -15,6 +15,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
   </head>
   <body>
     <div id="header">
@@ -25,6 +26,7 @@
           <li><a href="./home.html">Home</a></li>
           <li><a href="./lessons.html">Coding Tutorialz!</a></li>
           <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./resources.html">Resources</a></li>
       </ul>
       </nav>
     </center>
@@ -41,18 +43,26 @@
           <h1> Lesson One: Basic Syntax! </h1>
           <div id = "editor"> Type text here. </div>
           <div id = "output"> Output here. </div>
-            <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
+          <div id = "button"> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> </div>
+          <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
           </script>
            <script type="text/javascript">
               var editor = ace.edit("editor");
-              var editor_content;
               editor.setTheme("ace/theme/twilight");
               editor.getSession().setMode("ace/mode/lolcode");
-              editor.getSession().on('change', function(e){
-                editor_content = editor.getValue();
-                var x = editor.getValue();
-                document.getElementById("output").innerHTML = "You typed: " + x;
-              });
+              document.getElementById("output").innerHTML = "New output " + eval(x);
+              //editor.getSession().on('change', function(e){
+              //});
           </script>
+          <script>
+              function submitCode(){
+                var editor = ace.edit("editor");
+                var content = editor.getValue();
+                if(content == "Hello") {
+                  document.getElementById("output").innerHTML = "New output: " + content;
+                }
+              }
+          </script>
+
       </div>
   </body>
