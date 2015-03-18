@@ -40,12 +40,19 @@
           <hr></hr>
           <h1> Lesson One: Basic Syntax! </h1>
           <div id = "editor"> Type text here. </div>
+          <div id = "output"> Output here. </div>
             <script src="scripts/ace-builds/src/ace.js" type="text/javascript" charset="utf-8">
           </script>
            <script type="text/javascript">
               var editor = ace.edit("editor");
+              var editor_content;
               editor.setTheme("ace/theme/twilight");
               editor.getSession().setMode("ace/mode/lolcode");
+              editor.getSession().on('change', function(e){
+                editor_content = editor.getValue();
+                var x = editor.getValue();
+                document.getElementById("output").innerHTML = "You typed: " + x;
+              });
           </script>
       </div>
   </body>
