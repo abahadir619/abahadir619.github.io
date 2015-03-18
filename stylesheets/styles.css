@@ -1024,12 +1024,12 @@ section #title .credits.right {
 #landing-photo{
   color:#969486;
   left: auto;
-  width:1000px;
+  width:900px;
   height:750px;
   margin:auto;
   max-width: auto;
   max-height: auto;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+
 }
