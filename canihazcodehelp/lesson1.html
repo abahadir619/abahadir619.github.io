@@ -41,6 +41,10 @@
           </u1>
           <hr></hr>
           <h1> Lesson One: Basic Syntax! </h1>
+          <div id = "explanation"> 
+            
+
+          </div>
           <div id = "editor"> Type text here. </div>
           <div id = "output"> Output here. </div>
           <div id = "button"> <button class="submit" type="button" onclick="submitCode()">Submit Code &raquo;</button> </div>
@@ -51,8 +55,6 @@
               editor.setTheme("ace/theme/twilight");
               editor.getSession().setMode("ace/mode/lolcode");
               document.getElementById("output").innerHTML = "New output " + eval(x);
-              //editor.getSession().on('change', function(e){
-              //});
           </script>
           <script>
               function submitCode(){
